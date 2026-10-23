@@ -1,0 +1,22 @@
+{
+  "conf": 0.25,
+  "images": 100,
+  "false_positives_per_image": 0.67,
+  "recall_by_size": {
+    "small (<1% of image)": {
+      "gt": 94,
+      "detected": 65,
+      "recall": 0.6914893617021277
+    },
+    "medium (1-5%)": {
+      "gt": 98,
+      "detected": 77,
+      "recall": 0.7857142857142857
+    },
+    "large (>5%)": {
+      "gt": 84,
+      "detected": 75,
+      "recall": 0.8928571428571429
+    }
+  }
+}
