@@ -1,0 +1,6 @@
+{
+  "ear_threshold": 0.23361241777777778,
+  "mar_threshold": 0.51695366,
+  "perclos_threshold": 0.19689696969696985,
+  "source": "mean of 5 person-wise calibration splits on DDD"
+}
