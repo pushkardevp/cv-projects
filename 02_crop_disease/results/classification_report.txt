@@ -1,0 +1,16 @@
+                               precision    recall  f1-score   support
+
+               Bacterial spot      0.962     1.000     0.980       100
+                 Early blight      1.000     0.960     0.980       100
+                  Late blight      0.990     0.990     0.990       100
+                    Leaf Mold      1.000     1.000     1.000       100
+           Septoria leaf spot      0.935     1.000     0.966       100
+                 Spider mites      0.989     0.940     0.964       100
+                  Target Spot      0.950     0.960     0.955       100
+Tomato Yellow Leaf Curl Virus      1.000     0.970     0.985       100
+          Tomato mosaic virus      1.000     1.000     1.000       100
+                      healthy      1.000     1.000     1.000       100
+
+                     accuracy                          0.982      1000
+                    macro avg      0.983     0.982     0.982      1000
+                 weighted avg      0.983     0.982     0.982      1000

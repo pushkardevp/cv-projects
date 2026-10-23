@@ -1,0 +1,34 @@
+{
+  "robustness": {
+    "clean": {
+      "finetune": 98.2,
+      "finetune_robust": 98.4
+    },
+    "blur": {
+      "finetune": 19.2,
+      "finetune_robust": 97.1
+    },
+    "dark": {
+      "finetune": 96.89999999999999,
+      "finetune_robust": 96.1
+    },
+    "bright": {
+      "finetune": 92.60000000000001,
+      "finetune_robust": 92.10000000000001
+    },
+    "noise": {
+      "finetune": 22.0,
+      "finetune_robust": 97.39999999999999
+    },
+    "jpeg_q10": {
+      "finetune": 75.4,
+      "finetune_robust": 81.8
+    }
+  },
+  "gradcam": {
+    "images": 341,
+    "mean_cam_on_leaf": 0.6929667190023182,
+    "mean_leaf_area": 0.53011066734245,
+    "pct_images_cam_mostly_on_leaf": 94.13489736070382
+  }
+}

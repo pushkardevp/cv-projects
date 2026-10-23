@@ -1,0 +1,56 @@
+{
+  "classes": [
+    "Tomato___Bacterial_spot",
+    "Tomato___Early_blight",
+    "Tomato___Late_blight",
+    "Tomato___Leaf_Mold",
+    "Tomato___Septoria_leaf_spot",
+    "Tomato___Spider_mites Two-spotted_spider_mite",
+    "Tomato___Target_Spot",
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+    "Tomato___Tomato_mosaic_virus",
+    "Tomato___healthy"
+  ],
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 2.0635727066463896,
+      "train_acc": 0.3191111111111111,
+      "val_acc": 0.641,
+      "time_s": 10.89861249923706
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.1076338987350465,
+      "train_acc": 0.7545555555555555,
+      "val_acc": 0.802,
+      "time_s": 20.1584951877594
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.8474341232511732,
+      "train_acc": 0.8225555555555556,
+      "val_acc": 0.817,
+      "time_s": 29.527058124542236
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.7860028274324206,
+      "train_acc": 0.8422222222222222,
+      "val_acc": 0.839,
+      "time_s": 38.93214201927185
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.7575313719113668,
+      "train_acc": 0.8532222222222222,
+      "val_acc": 0.83,
+      "time_s": 48.55234980583191
+    }
+  ],
+  "mode": "linear",
+  "lr": 0.001,
+  "epochs": 5,
+  "train_time_s": 49.7324903011322,
+  "trainable_params": 5130
+}
