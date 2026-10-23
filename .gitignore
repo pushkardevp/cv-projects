@@ -1,0 +1,11 @@
+data
+data/
+__pycache__/
+*.pyc
+.venv/
+02_crop_disease/results/linear/model.pt
+02_crop_disease/results/finetune/model.pt
+05_object_tracking/results/videos/MOT17-04.mp4
+05_object_tracking/results/videos/MOT17-11.mp4
+*/src/*.pt
+*/src/weights/
