@@ -1,0 +1,107 @@
+{
+  "challenge": {
+    "full": {
+      "frames": 251,
+      "left_det_pct": 98.40637450199203,
+      "right_det_pct": 100.0,
+      "both_det_pct": 98.40637450199203,
+      "jitter_bottom_px": 1.6791151663297437,
+      "jitter_top_px": 0.8315147881683386,
+      "lane_width_cv_pct": 2.0016846656799316,
+      "warning_pct": 0.0,
+      "mean_abs_offset_m": 0.20690472424030304
+    },
+    "no_color_mask": {
+      "frames": 251,
+      "left_det_pct": 98.40637450199203,
+      "right_det_pct": 100.0,
+      "both_det_pct": 98.40637450199203,
+      "jitter_bottom_px": 4.077531156722759,
+      "jitter_top_px": 1.371059763605967,
+      "lane_width_cv_pct": 7.379992961883545,
+      "warning_pct": 1.9920318725099602,
+      "mean_abs_offset_m": 0.23909032344818115
+    },
+    "no_smoothing": {
+      "frames": 251,
+      "left_det_pct": 98.40637450199203,
+      "right_det_pct": 100.0,
+      "both_det_pct": 98.40637450199203,
+      "jitter_bottom_px": 7.483096790072881,
+      "jitter_top_px": 3.3185826549830053,
+      "lane_width_cv_pct": 2.7211883068084717,
+      "warning_pct": 0.0,
+      "mean_abs_offset_m": 0.2117721438407898
+    }
+  },
+  "solidWhiteRight": {
+    "full": {
+      "frames": 221,
+      "left_det_pct": 100.0,
+      "right_det_pct": 100.0,
+      "both_det_pct": 100.0,
+      "jitter_bottom_px": 0.6693359040856477,
+      "jitter_top_px": 0.367244456651181,
+      "lane_width_cv_pct": 0.5900821089744568,
+      "warning_pct": 0.0,
+      "mean_abs_offset_m": 0.13460174202919006
+    },
+    "no_color_mask": {
+      "frames": 221,
+      "left_det_pct": 100.0,
+      "right_det_pct": 100.0,
+      "both_det_pct": 100.0,
+      "jitter_bottom_px": 0.6798630284523235,
+      "jitter_top_px": 0.3597810782872922,
+      "lane_width_cv_pct": 0.6641983985900879,
+      "warning_pct": 0.0,
+      "mean_abs_offset_m": 0.13403689861297607
+    },
+    "no_smoothing": {
+      "frames": 221,
+      "left_det_pct": 100.0,
+      "right_det_pct": 100.0,
+      "both_det_pct": 100.0,
+      "jitter_bottom_px": 2.663940922932606,
+      "jitter_top_px": 1.3931767269528783,
+      "lane_width_cv_pct": 1.0168269872665405,
+      "warning_pct": 0.0,
+      "mean_abs_offset_m": 0.13801151514053345
+    }
+  },
+  "solidYellowLeft": {
+    "full": {
+      "frames": 681,
+      "left_det_pct": 100.0,
+      "right_det_pct": 100.0,
+      "both_det_pct": 100.0,
+      "jitter_bottom_px": 0.6576564244284057,
+      "jitter_top_px": 0.32596984292999004,
+      "lane_width_cv_pct": 1.0396806001663208,
+      "warning_pct": 0.0,
+      "mean_abs_offset_m": 0.1434909701347351
+    },
+    "no_color_mask": {
+      "frames": 681,
+      "left_det_pct": 100.0,
+      "right_det_pct": 100.0,
+      "both_det_pct": 100.0,
+      "jitter_bottom_px": 0.6637110857136728,
+      "jitter_top_px": 0.32923760858471773,
+      "lane_width_cv_pct": 0.9680963158607483,
+      "warning_pct": 0.0,
+      "mean_abs_offset_m": 0.1429179608821869
+    },
+    "no_smoothing": {
+      "frames": 681,
+      "left_det_pct": 100.0,
+      "right_det_pct": 100.0,
+      "both_det_pct": 100.0,
+      "jitter_bottom_px": 2.846521315792355,
+      "jitter_top_px": 1.327548628309362,
+      "lane_width_cv_pct": 1.2857553958892822,
+      "warning_pct": 0.0,
+      "mean_abs_offset_m": 0.14449919760227203
+    }
+  }
+}

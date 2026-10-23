@@ -1,0 +1,17 @@
+{
+  "n_frames": 53,
+  "n_tests": 1325,
+  "detected_pct": 100.0,
+  "offset_mae_m": 0.017712010070681572,
+  "offset_p90_err_m": 0.03524674102663994,
+  "warning_accuracy": 0.9818867924528302,
+  "warning_precision": 0.9868913857677902,
+  "warning_recall": 0.96875,
+  "confusion": {
+    "tp": 527,
+    "fp": 7,
+    "fn": 17,
+    "tn": 774
+  },
+  "threshold_m": 0.7400000000000001
+}
