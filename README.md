@@ -60,18 +60,31 @@ pip install -r 01_lane_detection/requirements.txt
 python 01_lane_detection/src/lane_detection.py --input 01_lane_detection/samples/inputs/solidWhiteCurve.jpg --output lanes.jpg
 ```
 
-### Full reproduction
+## Datasets
+The datasets are not stored in this repository because they are too large. Download them from the original sources:
+
+| Project | Dataset | Link | Size |
+|---|---|---|---|
+| 01 | Udacity lane-line test videos and images | [github.com/udacity/CarND-LaneLines-P1](https://github.com/udacity/CarND-LaneLines-P1) (folders `test_videos` and `test_images`) | 25 MB |
+| 02 | Tomato Leaf Disease (PlantVillage subset) | [kaggle.com/datasets/kaustubhb999/tomatoleaf](https://www.kaggle.com/datasets/kaustubhb999/tomatoleaf) | 180 MB |
+| 03 | Pothole Detection | [kaggle.com/datasets/andrewmvd/pothole-detection](https://www.kaggle.com/datasets/andrewmvd/pothole-detection) | 330 MB |
+| 04 | Driver Drowsiness Dataset (DDD) | [kaggle.com/datasets/ismailnasri20/driver-drowsiness-dataset-ddd](https://www.kaggle.com/datasets/ismailnasri20/driver-drowsiness-dataset-ddd) | 2.6 GB |
+| 05 | MOT17 multi-object tracking benchmark | [motchallenge.net/data/MOT17](https://motchallenge.net/data/MOT17/) | 5.5 GB |
+
+Open a link, click **Download** and unzip the files into a `data/` folder in the repository (for example `data/tomato/`,
+`data/pothole/`). Each project's `DATASET.md` describes the exact folder layout and how the data was split.
+
+If you prefer the command line, `download_data.sh` does the same thing, for example `bash download_data.sh tomato`.
+The Kaggle datasets then need a Kaggle API token (kaggle.com → Settings → API → Create New Token).
+
+## Running the projects
+Each project's README has the full commands to train, evaluate and demo it. A few examples:
 ```bash
-bash download_data.sh <lane|tomato|pothole|ddd|mot17|all>   # datasets go to ./data (not in git)
+python 03_pothole_detection/src/detect.py --source my_road_photo.jpg                # detect potholes in your own photo
+python 04_drowsiness_detection/src/drowsiness.py --source 0 --calibrate             # live drowsiness check with a webcam
+python 05_object_tracking/src/track.py --seq my_video.mp4 --out tracks.txt --video tracked.mp4   # track people in a video
 ```
-Kaggle datasets (projects 02–04) need a Kaggle API token (kaggle.com → Settings → API → Create New Token).
-Each project's README lists the exact commands to train, evaluate and demo it, for example:
-```bash
-python 03_pothole_detection/src/detect.py --source my_road_photo.jpg               # trained YOLOv8n included
-python 04_drowsiness_detection/src/drowsiness.py --source 0 --calibrate             # live webcam
-python 05_object_tracking/src/track.py --seq my_video.mp4 --out tracks.txt --video tracked.mp4
-```
-Tested on Ubuntu 22.04, Python 3.10, PyTorch 2 with CUDA.
+Tested on Ubuntu 22.04 with Python 3.10 and PyTorch 2 (CUDA).
 
 ## Repository layout
 ```
